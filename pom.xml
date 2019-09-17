@@ -35,7 +35,8 @@
     </plugins>
   </build>
   
-    <plugin>
+    <plugins>
+      <plugin>
          <groupId>org.apache.tomcat.maven</groupId>
          <artifactId>tomcat8-maven-plugin</artifactId>
          <version>2.2</version>
@@ -45,5 +46,6 @@
          <path>/my-app</path>
          </configuration>
     </plugin>
+   </plugins>
   
 </project>
