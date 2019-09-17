@@ -34,16 +34,15 @@
       </plugin>
     </plugins>
   </build>
-      <plugins>
-         <plugin>
-         <groupId>org.apache.tomcat.maven</groupId>
-         <artifactId>tomcat8-maven-plugin</artifactId>
-         <version>2.2</version>
-         <configuration>
+  <!-- https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat8-maven-plugin -->
+  <dependency>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat8-maven-plugin</artifactId>
+    <version>2.2</version>
+    <configuration>
            <url>http://13.127.188.134:8080/manager/text</url>
            <server>Tomcat</server>
            <path>/my-app</path>
-         </configuration>
-        </plugin>
-      </plugins>
-  </project>
+           </configuration>
+  </dependency>
+</project>
